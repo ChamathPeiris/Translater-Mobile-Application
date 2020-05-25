@@ -6,7 +6,8 @@ The application will help the user learn and practice different foreign language
   - Edit Phrases
   - Language Subscription
   - Translate
-  This application implemented in android using java platform.
+  
+This application implemented in android using java platform.
 # Features
 
   - Clicking on the Add Phrases button, it display to the user a page where the user

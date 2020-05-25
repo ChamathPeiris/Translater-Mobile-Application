@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@drawable/gradiant_background">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="331dp"
+            android:layout_height="91dp"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/baloo_bhaina"
+            android:text="Translate Phrases"
+            android:textColor="#fefbfb"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_weight="8"
+        android:layout_height="0dp"
+        android:columnCount="5"
+        android:rowCount="5"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="false"
+        android:padding="8dp">
+
+
+        <Button
+            android:id="@+id/arabic_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_translate_button"
+            android:fontFamily="@font/play"
+            android:onClick="openArabic"
+            android:text="Arabic"
+            android:textColor="#DCFFFFFF" />
+
+        <Button
+            android:id="@+id/bulgarian_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_translate_button"
+            android:fontFamily="@font/play"
+            android:onClick="openBulgarian"
+            android:text="Bulgarian"
+            android:textColor="#DCFFFFFF" />
+
+        <Button
+            android:id="@+id/czech_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_translate_button"
+            android:fontFamily="@font/play"
+            android:onClick="openCzech"
+            android:text="Czech"
+            android:textColor="#DCFFFFFF" />
+        <Button
+            android:id="@+id/danish_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="@drawable/custom_translate_button"
+            android:fontFamily="@font/play"
+            android:onClick="openDanish"
+            android:text="Danish"
+            android:layout_margin="15dp"
+            android:textColor="#DCFFFFFF" />
+        <Button
+            android:id="@+id/german_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="@drawable/custom_translate_button"
+            android:fontFamily="@font/play"
+            android:onClick="openGerman"
+            android:text="German"
+            android:layout_margin="15dp"
+            android:textColor="#DCFFFFFF" />
+        <Button
+            android:id="@+id/greek_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="@drawable/custom_translate_button"
+            android:fontFamily="@font/play"
+            android:onClick="openGreek"
+            android:text="Greek"
+            android:layout_margin="15dp"
+            android:textColor="#DCFFFFFF" />
+        <Button
+            android:id="@+id/spanish_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="@drawable/custom_translate_button"
+            android:fontFamily="@font/play"
+            android:onClick="openSpanish"
+            android:text="Spanish"
+            android:layout_margin="15dp"
+            android:textColor="#DCFFFFFF" />
+
+        <Button
+            android:id="@+id/estonian_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="@drawable/custom_translate_button"
+            android:fontFamily="@font/play"
+            android:onClick="openEstonian"
+            android:text="Estonian"
+            android:layout_margin="15dp"
+            android:textColor="#DCFFFFFF" />
+        <Button
+            android:id="@+id/finnish_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="@drawable/custom_translate_button"
+            android:fontFamily="@font/play"
+            android:onClick="openFinnish"
+            android:text="Finnish"
+            android:layout_margin="15dp"
+            android:textColor="#DCFFFFFF" />
+
+        <Button
+            android:id="@+id/french_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="@drawable/custom_translate_button"
+            android:fontFamily="@font/play"
+            android:onClick="openFrench"
+            android:text="French"
+            android:layout_margin="15dp"
+            android:textColor="#DCFFFFFF" />
+        <Button
+            android:id="@+id/irish_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="@drawable/custom_translate_button"
+            android:fontFamily="@font/play"
+            android:onClick="openIrish"
+            android:text="Irish"
+            android:layout_margin="15dp"
+            android:textColor="#DCFFFFFF" />
+        <Button
+            android:id="@+id/hebrew_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="@drawable/custom_translate_button"
+            android:fontFamily="@font/play"
+            android:onClick="openHebrew"
+            android:text="Hebrew"
+            android:layout_margin="15dp"
+            android:textColor="#DCFFFFFF" />
+        <Button
+            android:id="@+id/hindi_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="@drawable/custom_translate_button"
+            android:fontFamily="@font/play"
+            android:onClick="openHindi"
+            android:text="Hindi"
+            android:layout_margin="15dp"
+            android:textColor="#DCFFFFFF" />
+        <Button
+            android:id="@+id/croatian_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="@drawable/custom_translate_button"
+            android:fontFamily="@font/play"
+            android:onClick="openCroatian"
+            android:text="Croatian"
+            android:layout_margin="15dp"
+            android:textColor="#DCFFFFFF" />
+
+        <Button
+            android:id="@+id/hungarian_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="@drawable/custom_translate_button"
+            android:fontFamily="@font/play"
+            android:onClick="openHungarian"
+            android:text="Hungarian"
+            android:layout_margin="15dp"
+            android:textColor="#DCFFFFFF" />
+
+        <Button
+            android:id="@+id/italian_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="@drawable/custom_translate_button"
+            android:fontFamily="@font/play"
+            android:onClick="openItalian"
+            android:text="Italian"
+            android:layout_margin="15dp"
+            android:textColor="#DCFFFFFF" />
+
+        <Button
+            android:id="@+id/japanese_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="@drawable/custom_translate_button"
+            android:fontFamily="@font/play"
+            android:onClick="openJapanese"
+            android:text="Japanese"
+            android:layout_margin="15dp"
+            android:textColor="#DCFFFFFF" />
+
+        <Button
+            android:id="@+id/korean_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="@drawable/custom_translate_button"
+            android:fontFamily="@font/play"
+            android:onClick="openKorean"
+            android:text="Korean"
+            android:layout_margin="15dp"
+            android:textColor="#DCFFFFFF" />
+
+        <Button
+            android:id="@+id/lithuanian_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_translate_button"
+            android:fontFamily="@font/play"
+            android:onClick="openLithuanian"
+            android:text="Lithuanian"
+            android:textColor="#DCFFFFFF"
+            android:textSize="13sp" />
+        <Button
+            android:id="@+id/latvian_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="@drawable/custom_translate_button"
+            android:fontFamily="@font/play"
+            android:onClick="openLatvian"
+            android:text="Latvian"
+            android:layout_margin="15dp"
+            android:textColor="#DCFFFFFF" />
+
+        <Button
+            android:id="@+id/malay_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="@drawable/custom_translate_button"
+            android:fontFamily="@font/play"
+            android:onClick="openMalay"
+            android:text="Malay"
+            android:layout_margin="15dp"
+            android:textColor="#DCFFFFFF" />
+
+        <Button
+            android:id="@+id/norwegian_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_translate_button"
+            android:fontFamily="@font/play"
+            android:onClick="openNorwegian"
+            android:text="Norwegian Bokmal"
+            android:textColor="#DCFFFFFF"
+            android:textSize="13sp" />
+        <Button
+            android:id="@+id/dutch_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="@drawable/custom_translate_button"
+            android:fontFamily="@font/play"
+            android:onClick="openDutch"
+            android:text="Dutch"
+            android:layout_margin="15dp"
+            android:textColor="#DCFFFFFF" />
+
+        <Button
+            android:id="@+id/polish_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="@drawable/custom_translate_button"
+            android:fontFamily="@font/play"
+            android:onClick="openPolish"
+            android:text="Polish"
+            android:layout_margin="15dp"
+            android:textColor="#DCFFFFFF" />
+
+        <Button
+            android:id="@+id/portuguese_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_translate_button"
+            android:fontFamily="@font/play"
+            android:onClick="openPortuguese"
+            android:text="Portuguese"
+            android:textColor="#DCFFFFFF"
+            android:textSize="12sp" />
+        <Button
+            android:id="@+id/romanian_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="@drawable/custom_translate_button"
+            android:fontFamily="@font/play"
+            android:onClick="openRomanian"
+            android:text="Romanian"
+            android:layout_margin="15dp"
+            android:textColor="#DCFFFFFF" />
+        <Button
+            android:id="@+id/russian_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="@drawable/custom_translate_button"
+            android:fontFamily="@font/play"
+            android:onClick="openRussian"
+            android:text="Russian"
+            android:layout_margin="15dp"
+            android:textColor="#DCFFFFFF" />
+
+        <Button
+            android:id="@+id/slovakian_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="@drawable/custom_translate_button"
+            android:fontFamily="@font/play"
+            android:onClick="openSlovakian"
+            android:text="Slovakian"
+            android:layout_margin="15dp"
+            android:textColor="#DCFFFFFF" />
+        <Button
+            android:id="@+id/slovenian_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="@drawable/custom_translate_button"
+            android:fontFamily="@font/play"
+            android:onClick="openSlovenian"
+            android:text="Slovenian"
+            android:layout_margin="15dp"
+            android:textColor="#DCFFFFFF" />
+        <Button
+            android:id="@+id/swedish_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="@drawable/custom_translate_button"
+            android:fontFamily="@font/play"
+            android:onClick="openSwedish"
+            android:text="Swedish"
+            android:layout_margin="15dp"
+            android:textColor="#DCFFFFFF" />
+        <Button
+            android:id="@+id/thai_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="@drawable/custom_translate_button"
+            android:fontFamily="@font/play"
+            android:onClick="openThai"
+            android:text="Thai"
+            android:layout_margin="15dp"
+            android:textColor="#DCFFFFFF" />
+
+        <Button
+            android:id="@+id/turkish_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="@drawable/custom_translate_button"
+            android:fontFamily="@font/play"
+            android:onClick="openTurkish"
+            android:text="Turkish"
+            android:layout_margin="15dp"
+            android:textColor="#DCFFFFFF" />
+
+        <Button
+            android:id="@+id/urdu_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="@drawable/custom_translate_button"
+            android:fontFamily="@font/play"
+            android:onClick="openUrdu"
+            android:text="Urdu"
+            android:layout_margin="15dp"
+            android:textColor="#DCFFFFFF" />
+
+        <Button
+            android:id="@+id/vietnamese_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_translate_button"
+            android:fontFamily="@font/play"
+            android:onClick="openVietnamese"
+            android:text="Vietnamese"
+            android:textColor="#DCFFFFFF"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/simplified_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="@drawable/custom_translate_button"
+            android:fontFamily="@font/play"
+            android:onClick="openSimplifiedChinese"
+            android:text="Simplified Chinese"
+            android:layout_margin="15dp"
+            android:textColor="#DCFFFFFF" />
+
+        <Button
+            android:id="@+id/traditionalChinese_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_translate_button"
+            android:fontFamily="@font/play"
+            android:onClick="openTraditionalChinese"
+            android:text="Traditional Chinese"
+            android:textColor="#DCFFFFFF"
+            android:textSize="12sp" />
+
+    </GridLayout>
+
+
+</ScrollView>
+
+</LinearLayout>

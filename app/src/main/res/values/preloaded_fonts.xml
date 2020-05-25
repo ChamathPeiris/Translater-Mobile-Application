@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/acme</item>
+        <item>@font/allerta_stencil</item>
+        <item>@font/amiri</item>
+        <item>@font/audiowide</item>
+        <item>@font/baloo_bhaina</item>
+        <item>@font/basic</item>
+        <item>@font/carter_one</item>
+        <item>@font/changa_extralight</item>
+        <item>@font/crimson_text_bold</item>
+        <item>@font/days_one</item>
+        <item>@font/exo_2_medium</item>
+        <item>@font/lato</item>
+        <item>@font/lato_thin</item>
+        <item>@font/noticia_text</item>
+        <item>@font/orbitron</item>
+        <item>@font/play</item>
+        <item>@font/pt_serif_caption</item>
+        <item>@font/rajdhani_light</item>
+        <item>@font/raleway</item>
+        <item>@font/roboto_mono</item>
+        <item>@font/roboto_slab</item>
+        <item>@font/roboto_thin</item>
+        <item>@font/russo_one</item>
+    </array>
+</resources>

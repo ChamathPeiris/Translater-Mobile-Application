@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#15bdd8">
+
+
+    <Button
+        android:id="@+id/addBtnHome"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:background="@drawable/custom_add_button"
+        android:drawableLeft="@drawable/ic_add"
+        android:fontFamily="@font/raleway"
+        android:onClick="OpenAddPhrases"
+        android:text="Add Phrases"
+        android:textColor="#D6D6D6"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/displayBtnHome"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:background="@drawable/custom_display_button"
+        android:drawableLeft="@drawable/ic_display"
+        android:fontFamily="@font/raleway"
+        android:onClick="OpenDisplayPhrases"
+        android:text="Display Phrases"
+        android:textColor="#D6D6D6"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/editBtnHome"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:background="@drawable/custom_edit_button"
+        android:drawableLeft="@drawable/ic_edit"
+        android:fontFamily="@font/raleway"
+        android:onClick="OpenEditPhrases"
+        android:text="Edit phrases"
+        android:textColor="#D6D6D6"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/languageBtnHome"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:background="@drawable/custom_language_button"
+        android:drawableLeft="@drawable/ic_subscribe"
+        android:fontFamily="@font/raleway"
+        android:onClick="OpenLanguage"
+        android:text="Language subscription"
+        android:textColor="#D6D6D6"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/translateBtnHome"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:background="@drawable/custom_translate_button"
+        android:drawableLeft="@drawable/ic_translate"
+        android:fontFamily="@font/raleway"
+        android:onClick="OpenTranslate"
+        android:text="Translate"
+        android:textColor="#D6D6D6"
+        android:textSize="25sp" />
+
+</LinearLayout>

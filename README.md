@@ -1,5 +1,5 @@
 # Translater-Mobile-Application
-The application will help the user learn and practice different foreign languages.When the application starts, it presents the user with 5 buttons labelled as,
+The application will help the user to learn and practice different foreign languages.When the application starts, it presents the user with 5 buttons labelled as,
 
   - Add Phrases
   - Display Phrases
